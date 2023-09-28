@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          background-color: rgb(117, 149, 158);
+        }
+    </style>
+    <style> 
+        input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: none;
+          background-color: #7fa7e7;
+          color: rgb(0, 0, 0);
+        }
+        </style>
+        <style> 
+            select {
+              width: 100%;
+              padding: 16px 20px;
+              border: none;
+              border-radius: 4px;
+              background-color: #7fa7e7;
+            }
+            </style>
+            <style>
+                .button {
+                  background-color: #4CAF50; /* Green */
+                  border: none;
+                  color: white;
+                  padding: 15px 32px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 4px 2px;
+                  cursor: pointer;
+                }
+                
+                .button2 {background-color: #008CBA;} /* Blue */
+                </style>
+        </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuyitas: Registrate</title>
+</head>
+<body>
+    <h2>Registrate</h2>
+    <div>
+        <form action="/action_page.php">
+          <label for="fname">Primer y Segundo Nombre</label>
+          <input type="text" id="fname" name="firstname"></form></div>
+    <div>
+        <form action="/action_page.php">
+        <label for="lname">Primer y Segundo Apellido</label>
+    <input type="text" id="lname" name="lastname"></form>
+    </div>
+    <form>
+        <label for="fname">Tipo de Documento</label>
+        <select id="country" name="country">
+        <option value="CC">Cedula de ciudadania</option>
+        <option value="TI">Tarjeta de Identidad</option>
+        <option value="NIT">Nit</option>
+        </select>
+      </form>
+      <br>
+      <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Acepta <a href="https://www.sic.gov.co/sites/default/files/documentos/072020/Pol%C3%ADtica%20de%20Tratamiento%20de%20Datos%20Personales%20-%20SIC.pdf">Politicas de Tratamiento de Datos</a></label><br>
+      </form>
+      <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Acepto terminos y condiciones</label>
+      </form>
+      <br>
+      <a href="tarea_4_pagina.html"><button class="button button2">Enviar</button></a>
+</body>
+</html>
