@@ -10,11 +10,24 @@
     <header>
         <h1>Registro Medico</h1>
     </header>
+    <formulario>
     <form action="/action_page.php">
         <label for="fname">Nombres</label><br>
         <input type="text" id="fname" name="fname" value=""><br>
         <label for="fsurname">Apellidos</label><br>
         <input type="text" id="fsurname" name="fsurname" value=""><br>
+        <label for="tdocument">Tipo de Documento</label><br>
+        <select id="country" name="country">
+            <option value="au">Selecciona tipo de documento</option>
+            <option value="au">Cedula de Ciudadania</option>
+            <option value="ca">Targeta de Identidad</option>
+            <option value="usa">Targeta de Extrangeria</option>
+        </select><br>
+        <label for="Ndocument">Numero de Documento</label><br>
+        <input type="number" id="Ndocument" name="Ndocument" value=""><br>
+        <label for="Nconsul">Numero de Consultorio</label><br>
+        <input type="number" id="Nconsul" name="Nconsul" value=""><br>
     </form>
+    </formulario>
 </body>
 </html>
