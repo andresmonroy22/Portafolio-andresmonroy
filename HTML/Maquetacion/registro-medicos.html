@@ -9,24 +9,39 @@
 <body>
     <header>
         <h1>Registro Medico</h1>
-    </header>
+    </header><br>
     <formulario>
     <form action="/action_page.php">
-        <label for="fname">Nombres</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="fsurname">Apellidos</label><br>
-        <input type="text" id="fsurname" name="fsurname" value=""><br>
-        <label for="tdocument">Tipo de Documento</label><br>
+        <center><label for="fname">Nombres</label></center>
+        <center><input type="text" id="fname" name="fname" value=""></center><br>
+        <center><label for="fsurname">Apellidos</label></center>
+        <center><input type="text" id="fsurname" name="fsurname" value=""></center><br>
+        <center><label for="tdocument">Tipo de Documento</label></center>
+        <center><select id="Identidad" name="Identidad">
+            <option value="td">Selecciona tipo de documento</option>
+            <option value="cc">Cedula de Ciudadania</option>
+            <option value="ti">Targeta de Identidad</option>
+            <option value="te">Targeta de Extrangeria</option>
+        </select></center><br>
+        <center><label for="Ndocument">Numero de Documento</label></center>
+        <center><input type="number" id="Ndocument" name="Ndocument" value=""></center><br>
+        <center><label for="Nconsul">Numero de Consultorio</label></center>
+        <center><input type="number" id="Nconsul" name="Nconsul" value=""></center><br>
+        <label for="phone number">Numero de Telefono</label><br>
+        <input type="number" id="phone number" name="phone number" value=""><br>
+        <label for="email">Correo electronico</label><br>
+        <input type="text" id="email" name="email" value=""><br>
         <select id="country" name="country">
-            <option value="au">Selecciona tipo de documento</option>
-            <option value="au">Cedula de Ciudadania</option>
-            <option value="ca">Targeta de Identidad</option>
-            <option value="usa">Targeta de Extrangeria</option>
+            <option value="se">Selecciona Especialidad</option>
+            <option value="mg">Medicina general</option>
+            <option value="c">Cardiología</option>
+            <option value="mi">Medicina interna</option>
+            <option value="d">Dermatología</option>
+            <option value="rf">Rehabilitación física</option>
+            <option value="p">Psicología</option>
+            <option value="o">Odontología</option>
+            <option value="r">Radiología</option>
         </select><br>
-        <label for="Ndocument">Numero de Documento</label><br>
-        <input type="number" id="Ndocument" name="Ndocument" value=""><br>
-        <label for="Nconsul">Numero de Consultorio</label><br>
-        <input type="number" id="Nconsul" name="Nconsul" value=""><br>
     </form>
     </formulario>
 </body>
