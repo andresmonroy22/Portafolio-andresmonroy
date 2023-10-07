@@ -1,3 +1,3 @@
 //Declaracion de variables
 
-let 
+let Nombre,Edad

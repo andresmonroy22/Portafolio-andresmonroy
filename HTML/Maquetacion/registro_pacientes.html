@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro Pacientes</title>
+</head>
+<body>
+    <header>
+        <h1>Registro Pacientes</h1>
+    </header><br>
+    <formulario>
+    <form action="/action_page.php">
+        <center><label for="fname">Nombres</label></center>
+        <center><input type="text" id="fname" name="fname" value=""></center><br>
+        <center><label for="fsurname">Apellidos</label></center>
+        <center><input type="text" id="fsurname" name="fsurname" value=""></center><br>
+        <center><label for="tdocument">Tipo de Documento</label></center>
+        <center><select id="Identidad" name="Identidad">
+            <option value="td">Selecciona tipo de documento</option>
+            <option value="cc">Cedula de Ciudadania</option>
+            <option value="ti">Targeta de Identidad</option>
+            <option value="te">Targeta de Extrangeria</option>
+        </select></center><br>
+        <center><label for="Ndocument">Numero de Documento</label></center>
+        <center><input type="number" id="Ndocument" name="Ndocument" value=""></center><br>
+        <center><label for="phone number">Numero de Telefono</label></center>
+        <center><input type="number" id="phone number" name="phone number" value=""></center><br>
+        <center><label for="email">Correo electronico</label></center>
+        <center><input type="text" id="email" name="email" value=""></center><br>
+        <center><label for="tdocument">Tipo de Especielidad</label></center>
+        <center><select id="country" name="country">
+            <option value="se">Selecciona Especialidad</option>
+            <option value="mg">Medicina general</option>
+            <option value="c">Cardiología</option>
+            <option value="mi">Medicina interna</option>
+            <option value="d">Dermatología</option>
+            <option value="rf">Rehabilitación física</option>
+            <option value="p">Psicología</option>
+            <option value="o">Odontología</option>
+            <option value="r">Radiología</option>
+        </select></center><br>
+        <center><input type="button" value="Registrar"></center>
+    </form>
+    </formulario>
+</body>
+</html>
