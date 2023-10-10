@@ -1,5 +1,7 @@
 //Declaracion de variables
 
-let Nombre = promnt("ingrese el nombre : ");
-let edad = promnt("ingrese su edad : ");
+let name = promnt("ingrese el nombre : ");
+let age = promnt("ingrese su edad : ");
 alert(`Bienvenido, ${Nombre} veo que tienes ${Edad}`);
+console.log(age),
+console.log(name)
