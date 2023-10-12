@@ -3,48 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro médicos</title>
     <link rel="stylesheet" href="style.css">
-    <title>Registro Medico</title>
+    
 </head>
 <body>
     <header>
-        <h1>Registro Medicos</h1>
-    </header><br>
-    <formulario>
-    <form id="Registro Medicos-form">
-        <center><label for="fname">Nombres</label></center>
-        <center><input type="text" id="fname" name="fname" value="" required></center><br>
-        <center><label for="fsurname">Apellidos</label></center>
-        <center><input type="text" id="fsurname" name="fsurname" value="" required></center><br>
-        <center><label for="Identidad">Tipo de Documento</label></center>
-        <center><select id="Identidad" name="Identidad" required>
-            <option value="td">Selecciona tipo de documento</option>
-            <option value="cc">Cedula de Ciudadania</option>
-            <option value="te">Targeta de Extrangeria</option>
-        </select></center><br>
-        <center><label for="Ndocument">Numero de Documento</label></center>
-        <center><input type="number" id="Ndocument" name="Ndocument" value="" required></center><br>
-        <center><label for="Nconsul">Numero de Consultorio</label></center>
-        <center><input type="number" id="Nconsul" name="Nconsul" value="" required></center> <br>
-        <center><label for="phone number">Numero de Telefono</label></center>
-        <center><input type="number" id="phone number" name="phone number" value="" required></center><br>
-        <center><label for="email">Correo electronico</label></center>
-        <center><input type="text" id="email" name="email" value="" required></center><br>
-        <center><label for="specialty">Tipo de Especialidad</label></center>
-        <center><select id="specialty" name="specialty" required>
-            <option value="se">Selecciona Especialidad</option>
-            <option value="mg">Medicina general</option>
-            <option value="c">Cardiología</option>
-            <option value="mi">Medicina interna</option>
-            <option value="d">Dermatología</option>
-            <option value="rf">Rehabilitación física</option>
-            <option value="p">Psicología</option>
-            <option value="o">Odontología</option>
-            <option value="r">Radiología</option>
-        </select></center><br>
-        <center><input type="submit" value="Registrar"></center>
-    </form>
-    </formulario>
-    <script src="app.js"></script>
+        <h1>Centro médico Backend</h1>
+    </header>
+    <main>
+        <h2>Registro médicos</h2>
+        <div class="container-form">
+            <form id="registro-medicos-form">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <label for="cedula">Número de cedula:</label>
+                <input type="number" id="cedula" name="cedula" required>
+                <label for="consultorio">Número de consultorio:</label>
+                <input type="number" id="consultorio" name="consultorio" required>
+                <label for="telefono">Telefono:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+                <label for="correo">Correo electonico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="especialidad">Especialidad:</label>
+                <select name="especialidad" id="especialidad" required>
+                    <option value="">----------Seleccione una opcion-----------</option>
+                    <option value="Medicina general">Medicina general</option>
+                    <option value="Cardiología">Cardiología</option>
+                    <option value="Medicina interna">Medicina interna</option>
+                    <option value="Dermatología">Dermatología</option>
+                    <option value="Rehabilitación física">Rehabilitación física</option>
+                    <option value="Psicología">Psicología</option>
+                    <option value="Odontología">Odontología</option>
+                    <option value="Radiología">Radiología</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+            <a href="../index.html"><input type="button" value="Volver"></a>
+        </div>
+    </main>
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Grupo 1 desarrollo web backend</p>
+    </footer>
+    <script src="../app.js"></script>
 </body>
 </html>
