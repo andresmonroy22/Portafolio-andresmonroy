@@ -7,9 +7,69 @@ body {
 }
 
 
-header, h2 {
-    background-color: #000000;
-    padding: 20px;
+header {
+    background-color: #3269a0;
+    padding: 8px;
     text-align: center;
-    color: darkred;
+    color: rgb(0, 0, 0);
   }
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+  /*estilo para menu de navegacion*/
+
+  .topnav {
+    overflow: hidden;
+    background-color: #204f7e;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /*inicio de sesion y registrarme*/
+
+  input[type=text],
+  input[type=password] {
+    background-color: #528ce4;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+  }
+
+  select {
+    width: 20%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #7fa7e7;
+  }
+
+  .button {
+    background-color: #325bbc; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  
+
