@@ -34,7 +34,7 @@ main {
   margin: auto;
 }
 
-li{
+ul{
   list-style: none;
   display: inline-block;
   padding: 20px;
